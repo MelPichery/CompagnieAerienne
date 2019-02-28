@@ -148,14 +148,14 @@ EntityManager em = DatabaseHandle.getEntityManagerFactory();
 		v2.setAvion(a3);
 		v2.setDateArrivee(LocalDate.now());
 		v2.setDateDepart(LocalDate.now());
-		v2.setDistance(800f);
+		v2.setDistance(1000f);
 		v2.setHeureArrivee(LocalDateTime.now());
 		v2.setHeureDepart(LocalDateTime.now());
 		v2.setNumero("50L22");
 		v2.setPassagers(listpassager);
 		v2.setPrimeDepart(100f);
 		v2.setVilleArrivee("Nantes");
-		v2.setVilleDepart("Montpellier");
+		v2.setVilleDepart("Porto");
 		v2.setPersonnels(listpersonnel);
 		em.persist(v2);
 		
